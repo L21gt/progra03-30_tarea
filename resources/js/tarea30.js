@@ -1,15 +1,15 @@
 //Descomenta el siguiente codigo para ver el error
 
 function isStringPerfectLength (string, minLength, maxLength) {
-const stringLength = string.length;
+    const stringLength = string.length;
 
-if (stringLength < minLength) {
-    return false;
-} else if (stringLength > maxLength) {
-    return false;
-} else {
-    return true;
-}
+    if (stringLength < minLength) {
+        return false;
+    } else if (stringLength > maxLength) {
+        return false;
+    } else {
+        return true;
+    }
 }
 
 // Should return true
