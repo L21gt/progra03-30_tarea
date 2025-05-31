@@ -71,15 +71,15 @@ Sabemos que puedes lograrlo.
     //Descomenta el siguiente codigo para ver el error
 
     function isStringPerfectLength(string, minLength, maxLength {
-    const stringLength = string.length;
+        const stringLength = string.length;
 
-    if (stringLenth > minLength) {
-        return false;
-    } else if (stringLenth < maxLength) {
-        return false;
-    } else {
-        return true;
-    }
+        if (stringLenth > minLength) {
+            return false;
+        } else if (stringLenth < maxLength) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     // Should return true
